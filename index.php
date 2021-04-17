@@ -1,60 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
-    <link rel="stylesheet" href="./public/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="icon" type="image/vnd.microsoft.icon" href="./assets/icons/ico.png" sizes="16x16 32x32">
+    <?php include_once 'head.php' ?>
     <title>Gmoscape Contractor LLC  </title>
 </head>
 <body>
-    <header>
-        <section class="header">
-            <div class="header-top">
-                <div class="header-top__content container">
-                    <div class="header-logo">
-                        <img src="./assets/icons/Logo gmoscape.svg" alt="">
-                    </div>
-                    <div class="header-info">
-                        <div class="header-info__content">
-                            <span><i class="fas fa-envelope"></i> <p>manager@gmoscapect.com</p></span>
-                            <span><i class="fas fa-phone"></i> <p>(203) 343-0904</p></span>
-                        </div>
-                        <div class="header-info__social">
-                            <ul>
-                                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
-                            </ul>
-                        </div>
-                        <a class="btn-login" href="">Login</a>
-                    </div>
-                </div>
-            </div>
-            <div class="header-down">
-                <div class="header-down__content container">
-                    <nav>
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">About us</a></li>
-                            <li><a href="">Galleries</a></li>
-                            <li><a href="">Testimonials</a></li>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">Pay Here!</a></li>
-                            <li><a href="">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            
-        </section>
-    </header>
+    <?php include_once 'header.php' ?>
     <main class="containerFull">
         <section class="hero section">
             <div id="carouselHome" class="carousel slide" data-bs-ride="carousel">
@@ -249,21 +200,17 @@
                 </button>
             </div>
         </section>
-        <section class="bottom-main-container">
+        <section class="bottom-main-container container">
             <div class="bottom-container">
-                <h3>Gmoscape Contractor LLC makes your outdoor dreams a reality</h3>
+                <h2>Gmoscape Contractor LLC makes your outdoor dreams a reality</h2>
                 <p>We are experts at building landscapes and hardscapes. Whether you’re planning a new patio, poolscape, driveway, walkway, steps, or stone walls; you can rely on us to meet your expectations. Give us a call and we will guide you throughout the process, from planning to execution and building, always with excellence.</p>
-                <h3>Need More Quality Assurance?</h3>
+                <h2>Need More Quality Assurance?</h2>
                 <p>At Gmoscape Contractor we use pavers that meet or exceed standards set by Interlocking Concrete Pavement Institute (ICPI) and ASTM International.</p>
-                <a href="http://m.me/gmoscape" target="_blank">CHAT WITH OUR SPECIALIST</a>
+                <a class="btn_orange" href="http://m.me/gmoscape" target="_blank">CHAT WITH OUR SPECIALIST</a>
                 <p class="bottom__call--number">OR CALL US NOW AT <wbr> <strong> <wbr> (203) 343-0904</strong></p>
             </div>
         </section>
     </main>
-    <footer>
-    
-    </footer>
-    <script src="./public/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <?php include_once 'footer.php' ?>
 </body>
 </html>
