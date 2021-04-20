@@ -59,6 +59,35 @@
                 </div>
             </div>
         </div>
+        <!-- Whatsapp -->
+        <div class="btn__whatsapp">
+            <figure>
+                <img src="./assets/icons/whatsapp.svg" alt="Icon Whatsapp">
+            </figure>
+        </div>
+        <div class="window__whatsapp animate__animated  animate__backInRight">
+            <div class="whatsapp-header">
+                <i class="close-whatsapp fas fa-times"></i>
+            </div>
+            <div class="whatsapp-main">
+                <span>
+                    <p>Gmoscape Contracto LLC</p>
+                    <p>Hi there ✋</p>
+                    <p>Send us a message...</p>
+                </span>
+            </div>
+            <div class="whatsapp-footer">
+                <a href="https://wa.link/yli72s" target="_blank">
+                    Start Chat <img src="./assets/icons/send-arrow.svg" alt="Icon Send">
+                </a>
+            </div>
+        </div>
+        <!-- Free Estimate -->
+        <div class="btn__free animate__animated animate__pulse animate__infinite animate__delay-3s  ">
+            <span><i class="fas fa-chevron-up"></i></span>
+            <p>Free Estimate</p>
+        </div>
     </footer>
     <script src="./public/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="./public/js/general.js"></script>

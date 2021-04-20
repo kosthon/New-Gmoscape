@@ -17,7 +17,7 @@
         </section>
         <section class="testimonials__content container">
             <div class="services__text">
-                <h2>testimonials</h2>
+                <h2>Testimonials</h2>
                 <hr>
                 <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
@@ -33,7 +33,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eius libero maiores commodi cupiditate excepturi repudiandae minima nulla. Et numquam voluptas impedit perspiciatis. Error quia quae nostrum consequatur aut dolorum?
                             </p>
-                            <p><strong>Petronila Maria</strong></p>
+                            <p><strong>Petronila Maria 1</strong></p>
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eius libero maiores commodi cupiditate excepturi repudiandae minima nulla. Et numquam voluptas impedit perspiciatis. Error quia quae nostrum consequatur aut dolorum?
                             </p>
-                            <p><strong>Petronila Maria</strong></p>
+                            <p><strong>Petronila Maria 2</strong></p>
                         </div>
                     </div>
 
@@ -57,7 +57,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eius libero maiores commodi cupiditate excepturi repudiandae minima nulla. Et numquam voluptas impedit perspiciatis. Error quia quae nostrum consequatur aut dolorum?
                             </p>
-                            <p><strong>Petronila Maria</strong></p>
+                            <p><strong>Petronila Maria 3 </strong></p>
                         </div>
                     </div>
 
@@ -69,7 +69,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eius libero maiores commodi cupiditate excepturi repudiandae minima nulla. Et numquam voluptas impedit perspiciatis. Error quia quae nostrum consequatur aut dolorum?
                             </p>
-                            <p><strong>Petronila Maria</strong></p>
+                            <p><strong>Petronila Maria 4</strong></p>
                         </div>
                     </div>
 
@@ -81,7 +81,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eius libero maiores commodi cupiditate excepturi repudiandae minima nulla. Et numquam voluptas impedit perspiciatis. Error quia quae nostrum consequatur aut dolorum?
                             </p>
-                            <p><strong>Petronila Maria</strong></p>
+                            <p><strong>Petronila Maria 5</strong></p>
                         </div>
                     </div>
 
@@ -93,7 +93,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eius libero maiores commodi cupiditate excepturi repudiandae minima nulla. Et numquam voluptas impedit perspiciatis. Error quia quae nostrum consequatur aut dolorum?
                             </p>
-                            <p><strong>Petronila Maria</strong></p>
+                            <p><strong>Petronila Maria 6</strong></p>
                         </div>
                     </div>
                 </div>

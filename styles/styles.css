@@ -223,7 +223,7 @@ body ul {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 60%;
+	width: 70%;
 	padding: 30px;
 	margin: 0 auto;
 	background-color: rgba(0, 0, 0, 0.6);
@@ -535,6 +535,154 @@ body ul {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
+}
+/* ----------- Whtasapp Btn ---------*/
+.btn__whatsapp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	right: 20px;
+	bottom: 160px;
+	padding: 6px;
+	width: 60px;
+	height: 60px;
+	background-color: #25d366;
+	border-radius: 30px;
+	cursor: pointer;
+	box-shadow: 0px 3px 6px #00000029;
+	z-index: 11;
+}
+.btn__whatsapp figure {
+	margin-bottom: 0px;
+	margin-left: 4px;
+}
+.btn__whatsapp figure img {
+	width: 100%;
+}
+.window__whatsapp {
+	background-image: url(../assets/images/fondo-whatsapp.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	right: 20px;
+	bottom: 230px;
+	width: 250px;
+	height: 200px;
+	background-color: white;
+	border-radius: 10px;
+	z-index: 10;
+	box-shadow: 0px 3px 6px #00000029;
+	opacity: 0;
+	display: none;
+	transition: all 0.3s;
+}
+.window__whatsapp.active {
+	opacity: 1;
+	display: block;
+}
+.whatsapp-header {
+	position: relative;
+	height: 40px;
+	width: 100%;
+	background-color: #0a594b;
+	border-radius: 10px 10px 0px 0px;
+	z-index: 11;
+}
+.whatsapp-header > * {
+	position: absolute;
+	right: 10px;
+	top: 14px;
+	font-size: 1.2rem;
+	color: white;
+	cursor: pointer;
+}
+.whatsapp-header > *:hover {
+	color: var(--second);
+}
+.whatsapp-main {
+	position: relative;
+	padding: 10px;
+	height: 120px;
+	width: 100%;
+}
+.whatsapp-main span {
+	position: absolute;
+	padding: 8px;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0px 3px 6px #00000029;
+	bottom: 10px;
+	left: 10px;
+}
+
+.whatsapp-main span p:first-child {
+	color: var(--second);
+	font-size: 10px;
+}
+.whatsapp-main span p {
+	font-size: 12px;
+	font-weight: 400;
+}
+.whatsapp-footer {
+	position: relative;
+	width: 100%;
+	height: 40px;
+}
+.whatsapp-footer a {
+	position: absolute;
+	bottom: 10px;
+	right: 50%;
+	transform: translate(50%, 0px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #15bf51;
+	font-size: 1.4rem;
+	color: white;
+	padding: 4px 10px;
+	border-radius: 20px;
+	width: 95%;
+}
+.whatsapp-footer a:hover {
+	color: white;
+	background-color: #0a594b;
+}
+.whatsapp-footer a img {
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+}
+/* --------- Free Estimate ---------*/
+.btn__free {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1;
+	bottom: 0px;
+	right: 0px;
+	padding: 0px 20px;
+	border-radius: 0px 70px;
+	width: 150px;
+	height: 150px;
+	background-color: var(--second);
+	color: white;
+	z-index: 11;
+	cursor: pointer;
+}
+.btn__free span {
+	font-size: 4rem;
+}
+.btn__free p {
+	margin-bottom: 25px;
 }
 /*-----------------------------------------
 				7. Services
@@ -1239,4 +1387,69 @@ body ul {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
+}
+/*-----------------------------------------
+			13. Galleries
+-----------------------------------------*/
+.galleries {
+	margin: 40px 0px;
+}
+.galleries__item {
+	height: 150px !important;
+}
+.galleries__item .active {
+	background-color: white;
+}
+.galleries__item figure {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	width: 70px;
+	height: 80px;
+	margin-bottom: 0px;
+}
+.galleries__item a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	padding: 20px 10px;
+	border-radius: 10px;
+	transition: all 0.3s;
+}
+.galleries__item a:hover {
+	background-color: white;
+}
+.galleries .galleries__items {
+	position: initial;
+	margin: 0px 50px;
+}
+.galleries__item p {
+	line-height: 1;
+	text-align: center;
+	margin-top: 10px;
+	color: #999999;
+}
+.galleries__item figure img {
+	width: 100%;
+}
+.galleries__slide {
+	margin-top: 20px;
+	position: relative;
+}
+.swiper-button-next,
+.swiper-button-prev {
+	z-index: 1 !important;
+	font-size: 4rem;
+	color: var(--primary) !important;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+	color: var(--third) !important;
+}
+.swiper-button-next:after,
+.swiper-button-prev::after {
+	content: none !important;
 }
