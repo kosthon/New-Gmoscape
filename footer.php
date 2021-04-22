@@ -65,7 +65,7 @@
                 <img src="./assets/icons/whatsapp.svg" alt="Icon Whatsapp">
             </figure>
         </div>
-        <div class="window__whatsapp animate__animated  animate__backInRight">
+        <div class="window__whatsapp animate__animated  animate__backInRight animate__fast">
             <div class="whatsapp-header">
                 <i class="close-whatsapp fas fa-times"></i>
             </div>
@@ -83,10 +83,58 @@
             </div>
         </div>
         <!-- Free Estimate -->
-        <div class="btn__free animate__animated animate__pulse animate__infinite animate__delay-3s  ">
+        <div class="btn__free animate__animated animate__pulse animate__infinite animate__delay-3s" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             <span><i class="fas fa-chevron-up"></i></span>
             <p>Free Estimate</p>
         </div>
+
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="address" name="addres" placeholder="Address">
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone">
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-sm-12">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-sm-12">
+                                    <textarea class="form-control" id="message" name="message" rows="3" placeholder="Your Message"></textarea>
+                                </div>
+                            </div>
+                            <p>By clicking “Send message”, you agree to our <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy.</a> </p> 
+                            <button class="btn-green">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </footer>
     <script src="./public/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>

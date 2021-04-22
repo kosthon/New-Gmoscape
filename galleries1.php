@@ -21,15 +21,18 @@
             <?php include_once 'nav-galleries.php' ?>
 
             <div class="service__imgs">
-                <a href="./assets/images/Banner testimonials.png" class="service__imgs-items">
-                    <img src="./assets/images/Banner testimonials.png" alt="">
-                </a >
                 <a href="./assets/images/fotos-5.jpg" class="service__imgs-items">
                     <img src="./assets/images/fotos-5.jpg" alt="">
                 </a >
                 <a href="./assets/images/Banner testimonials.png" class="service__imgs-items">
                     <img src="./assets/images/Banner testimonials.png" alt="">
                 </a >
+                <a href="./assets/images/fondo-whatsapp.jpg" class="service__imgs-items">
+                    <img src="./assets/images/Banner testimonials.png" alt="">
+                </a >
+                <a href="./assets/images/fotos-5.jpg" class="service__imgs-items">
+                    <img src="./assets/images/fotos-5.jpg" alt="">
+                </a>
                 <a href="./assets/images/Banner About us.png" class="service__imgs-items">
                     <img src="./assets/images/Banner About us.png" alt="">
                 </a >
@@ -39,6 +42,11 @@
                 <a href="./assets/images/Recurso_3.png" class="service__imgs-items">
                     <img src="./assets/images/Recurso_3.png" alt="">
                 </a >
+                <a href="./assets/images/Banner testimonials.png" class="service__imgs-items">
+                    <img src="./assets/images/Banner testimonials.png" alt="">
+                </a >
+
+                
                 <a href="./assets/images/Grupo 145.png" class="service__imgs-items">
                     <img src="./assets/images/Grupo 145.png" alt="">
                 </a >
