@@ -22,6 +22,9 @@
                             <p>TAX:</p> <input type="number" name="" id="" disabled value="123">
                         </div>
                         <div class="paySearch-info__left-item">
+                            <p>ONLINE PAYMENT FEE:</p> <input type="number" name="" id="" disabled value="123">
+                        </div>
+                        <div class="paySearch-info__left-item">
                             <p>TOTAL:</p> <input type="number" name="" id="" disabled value="123">
                         </div>
                         <div class="paySearch-info__left-item">

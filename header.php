@@ -12,10 +12,10 @@
                         </div>
                         <div class="header-info__social">
                             <ul>
-                                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
                             </ul>
                         </div>
                         <a class="btn-login" href="">Login</a>
@@ -36,8 +36,29 @@
                             <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </nav>
+                    <div class="hamburguer">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    
                 </div>
             </div>
-            
+            <div class="hamburguer-nav">
+                <i class="close-hamburguer fas fa-times"></i>
+                <figure>
+                    <img src="./assets/icons/Logo gmoscape.svg" alt="Gmoscape Logo">
+                </figure>
+                <nav>
+                    <ul>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="aboutus.php">About us</a></li>
+                        <li><a href="galleries.php">Galleries</a></li>
+                        <li><a href="testimonials.php">Testimonials</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+                        <li><a href="payment.php">Pay Here!</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>  
         </section>
     </header>

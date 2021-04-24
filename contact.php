@@ -23,8 +23,15 @@
                     <div class="mb-3">
                         <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone number">
                     </div>
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                    <div class="row g-3">
+                        <div class="col-sm-12">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="mb-3">
                         <textarea class="form-control" id="message" name="message" placeholder="Your message" rows="3"></textarea>

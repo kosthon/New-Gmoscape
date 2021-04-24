@@ -14,10 +14,10 @@
                         <div class="footer__top-items">
                             <h3>FOLLOW US:</h3>
                             <ul>
-                                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
                             </ul>
                             <div class="terms-policy">
                                 <a href="">Terms & Conditions</a>

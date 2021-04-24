@@ -64,11 +64,11 @@
             // init: false,
             breakpoints: {
                 360: {
-                slidesPerView: 2,
+                slidesPerView: 1,
                 spaceBetween: 10,
                 },
-                400: {
-                slidesPerView: 3,
+                450: {
+                slidesPerView: 2,
                 spaceBetween: 10,
                 },
                 640: {

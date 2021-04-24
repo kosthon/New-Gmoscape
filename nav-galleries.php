@@ -1,5 +1,5 @@
             <div class="services__text">
-                <h2>Our Services</h2>
+                <p class="gallarie-text">Here you can find photos from our most recent projects.</p>
                 <hr>
                 <div class="galleries__slide">
                     <div class="galleries__items swiper-container">

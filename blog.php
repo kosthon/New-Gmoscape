@@ -24,7 +24,7 @@
                         <p>Rendering is very important because it allows us to get a realistic image before  building the new outdoor space.</p>
                     </div>
                     <div class="blog-item__btn">
-                        <a href="blog-single.php" class="">MORE HERE</a>
+                        <a href="blog-single.php" class="">READ MORE</a>
                         <div class="share-content">
                             SHARE 
                             <div class="share-btns">
@@ -46,7 +46,7 @@
                         <p>Rendering is very important because it allows us to get a realistic image before  building the new outdoor space.</p>
                     </div>
                     <div class="blog-item__btn">
-                        <a href="blog-single.php" class="">MORE HERE</a>
+                        <a href="blog-single.php" class="">READ MORE</a>
                         <div class="share-content">
                             SHARE <div class="share-btns">
                                 <button><i class="fab fa-instagram"></i></button>
@@ -67,7 +67,7 @@
                         <p>Rendering is very important because it allows us to get a realistic image before  building the new outdoor space.</p>
                     </div>
                     <div class="blog-item__btn">
-                        <a href="blog-single.php" class="">MORE HERE</a>
+                        <a href="blog-single.php" class="">READ MORE</a>
                         <div class="share-content">
                             SHARE <div class="share-btns">
                                 <button><i class="fab fa-instagram"></i></button>
@@ -88,7 +88,7 @@
                         <p>Rendering is very important because it allows us to get a realistic image before  building the new outdoor space.</p>
                     </div>
                     <div class="blog-item__btn">
-                        <a href="single-blog.php" class="">MORE HERE</a>
+                        <a href="single-blog.php" class="">READ MORE</a>
                         <div class="share-content">
                             SHARE <div class="share-btns">
                                 <button><i class="fab fa-instagram"></i></button>

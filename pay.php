@@ -52,8 +52,8 @@
                             <div class="m-size-servicio">200 - 300ft<sup>2</sup></div>
                         </div>
                         <div class="form-group row size-input">
-                            <label for="inputSize" class="col-sm-4 col-form-label">Patio Size (ft<sup>2</sup>):</label>
-                            <div class="col-sm-7 size-input-container">
+                            <label for="inputSize" class="col-sm-3 col-form-label">Patio Size (ft<sup>2</sup>):</label>
+                            <div class="col-sm-6 size-input-container">
                                 <input type="number" class="form-control" min="200" max="300" name="medida" id="medida" placeholder="Enter your patio size here" required="" title="no se puede">
                                 <button type="button" class="btn btn-secondary" data-bs-html="true" data-bs-toggle="tooltip" data-bs-placement="top" title="<strong>How many square feet is my patio?</strong> <p>For square or rectangular areas, measure the length and width of the space and multiply them together. For example, a 10-by-10-foot patio would be <strong> 100 square feet.</strong></p>">?</button>
                             </div>
@@ -179,6 +179,28 @@
             slidesPerView: 3,
             spaceBetween: 20,
             loop: true,
+            breakpoints: {
+                360: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                },
+                450: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                },
+                640: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+                },
+                768: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+                },
+                1100: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+                },
+            },
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',

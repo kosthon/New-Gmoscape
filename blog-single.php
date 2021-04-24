@@ -119,8 +119,7 @@
                     </figure>
                     <div class="blog__more-text">
                         <h4>Tecnología en la nube en el mundo de la salud</h4>
-                        <p>Ler adipiscing elit, sed diam nonummy nibh.</p>
-                        <a class="btn" href="">MORE HERE</a>
+                        <a class="btn" href="">READ MORE</a>
                     </div>
                 </div>
                 <div class="blog__more-item">
@@ -129,8 +128,7 @@
                     </figure>
                     <div class="blog__more-text">
                         <h4>Tecnología en la nube en el mundo de la salud</h4>
-                        <p>Ler adipiscing elit, sed diam nonummy nibh.</p>
-                        <a class="btn" href="">MORE HERE</a>
+                        <a class="btn" href="">READ MORE</a>
                     </div>
                 </div>
                 <div class="blog__more-item">
@@ -139,8 +137,7 @@
                     </figure>
                     <div class="blog__more-text">
                         <h4>Tecnología en la nube en el mundo de la salud</h4>
-                        <p>Ler adipiscing elit, sed diam nonummy nibh.</p>
-                        <a class="btn" href="">MORE HERE</a>
+                        <a class="btn" href="">READ MORE</a>
                     </div>
                 </div>
                 <div class="blog__more-item">
@@ -149,8 +146,7 @@
                     </figure>
                     <div class="blog__more-text">
                         <h4>Tecnología en la nube en el mundo de la salud</h4>
-                        <p>Ler adipiscing elit, sed diam nonummy nibh.</p>
-                        <a class="btn" href="">MORE HERE</a>
+                        <a class="btn" href="">READ MORE</a>
                     </div>
                 </div>
             </div>
